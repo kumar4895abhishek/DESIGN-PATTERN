@@ -1,4 +1,4 @@
-package singleton;
+package singleton_v1;
 
 import java.net.ConnectException;
 
