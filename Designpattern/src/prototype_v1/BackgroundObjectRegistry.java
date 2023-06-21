@@ -1,9 +1,9 @@
 package prototype_v1;
 
 import java.util.HashMap;
-
 import java.util.Map;
-import lombok.*;
+
+import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class BackgroundObjectRegistry 
