@@ -2,11 +2,13 @@ package payment_adapter_v1;
 
 public class Main 
 {
-	private static PaymentProviderInterface paymentprovider=new PayUPaymentProvider(); // only here change neeeds to be done
+	private static PaymentProviderInterface paymentprovider=new RazorPaypaymentprovider(); // only here change neeeds to be done
 
 	public static void main(String[] args) 
 	{
 		paymentprovider.makePayment( 1L, "ABC", 200);
+//		Main obj = new Main();
+//		obj.original();
 
 	}
 	

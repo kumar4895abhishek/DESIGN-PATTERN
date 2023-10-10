@@ -4,5 +4,7 @@ public interface GraphicalObject
 {
 	
 	GraphicalObject clone();
+	
+	//void abc();
 
 }

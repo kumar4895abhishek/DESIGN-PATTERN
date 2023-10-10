@@ -1,5 +1,8 @@
 package builder_v1;
 
+import lombok.Getter;
+
+@Getter
 public class Student 
 {
 	
@@ -13,11 +16,13 @@ public class Student
 	
 	boolean active;
 	
-	public String getFirstName() {
+	public String getFirstName()
+	{
         return this.firstName;
     }
 	
-	public String getLastName() {
+	public String getLastName()
+	{
 		// TODO Auto-generated method stub
 		return this.lastName;
 	}
