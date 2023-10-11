@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton_Eager;
 
 public class singleton_eager_initialization 
 {

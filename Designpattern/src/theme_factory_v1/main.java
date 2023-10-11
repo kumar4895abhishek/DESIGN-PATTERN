@@ -4,10 +4,11 @@ import java.awt.Checkbox;
 
 public class main {
 	
-	private static ThemeFactory factory =new LightThemeFactory();
 
 	public static void main(String[] args) 
 	{
+		ThemeFactory factory =new DarkThemeFactory();
+
 		//String theme="Dark";
 		Button button =factory.createButton();
 		button.onclick();
